@@ -45,4 +45,17 @@ void loop()
   Serial.print(total6);
   Serial.print("\t");
   Serial.print(total7);
+  
+  if (total1 > 150) tone(speaker,523);
+  if (total2 > 150) tone(speaker,587);
+  if (total3 > 150) tone(speaker,659);
+  if (total4 > 150) tone(speaker,698);
+  if (total5 > 150) tone(speaker,784);
+  if (total6 > 150) tone(speaker,880);
+  if (total7 > 150) tone(speaker,988);
+
+  if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
+    noTone(speaker);
+
+  delayMicroseconds(5);
 }
