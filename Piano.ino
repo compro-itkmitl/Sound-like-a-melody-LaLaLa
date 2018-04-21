@@ -69,6 +69,15 @@ void loop()
   if (total7 > 150) tone(speaker,988);
   if (total8 > 150)
   {
+    long total1 =  cs_2_3.capacitiveSensor(30);
+    long total2 =  cs_2_4.capacitiveSensor(30);
+    long total3 =  cs_2_5.capacitiveSensor(30);
+    long total4 =  cs_2_6.capacitiveSensor(30);
+    long total5 =  cs_2_7.capacitiveSensor(30);
+    long total6 =  cs_2_8.capacitiveSensor(30);
+    long total7 =  cs_2_9.capacitiveSensor(30);
+    long total9 =  cs_2_12.capacitiveSensor(30);
+
     for(int i=0;i<500;i++)
     {
       if (total1 > 150)
