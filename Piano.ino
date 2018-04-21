@@ -121,6 +121,19 @@ void loop()
         recording[i] = 0;
       }
       if (total9 > 150) break;
+      Serial.print(total1);                  
+      Serial.print("\t");                    
+      Serial.print(total2);                  
+      Serial.print("\t");                    
+      Serial.print(total3);                  
+      Serial.print("\t");                    
+      Serial.print(total4);                  
+      Serial.print("\t");                    
+      Serial.print(total5);                  
+      Serial.print("\t");                    
+      Serial.print(total6);                 
+      Serial.print("\t");                    
+      Serial.println(total7);
       delayMicroseconds(5);
     }
   }
