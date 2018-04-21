@@ -67,6 +67,53 @@ void loop()
   if (total5 > 150) tone(speaker,784);
   if (total6 > 150) tone(speaker,880);
   if (total7 > 150) tone(speaker,988);
+  if (total8 > 150)
+  {
+    for(int i=0;i<500;i++)
+    {
+      if (total1 > 150)
+      {
+        recording[i] = 523;
+        tone(speaker,523);
+      }
+      if (total2 > 150)
+      {
+        recording[i] = 587;
+        tone(speaker,587);
+      }
+      if (total3 > 150)
+      {
+        recording[i] = 659;
+        tone(speaker,659);
+      }
+      if (total4 > 150)
+      {
+        recording[i] = 698;
+        tone(speaker,698);
+      }
+      if (total5 > 150)
+      {
+        recording[i] = 784;
+        tone(speaker,784);
+      }
+      if (total6 > 150)
+      {
+        recording[i] = 880;
+        tone(speaker,880);
+      }
+      if (total7 > 150)
+      {
+        recording[i] = 988;
+        tone(speaker,988);
+      }
+      if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
+      {
+        noTone(speaker);
+        recording[i] = 0;
+      }
+      delayMicroseconds(5);
+    }
+  }
 
   if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
     noTone(speaker);
