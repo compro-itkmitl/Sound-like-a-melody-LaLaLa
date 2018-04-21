@@ -6,10 +6,15 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 
 #Material
 1.สายไฟตัวผู้ 2 หัว
+
 2.บอร์ดArduino
+
 3.ลำโพง
+
 4.ตัวต้านทาน
+
 5.คลิปหนีบกระดาษ
+
 6.Breadboard
 
 1. 2 male head wire
@@ -23,15 +28,23 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 1.ทำการโหลดตัวlibrary Capacitive Sensorจากhttp://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
 
 2.ทำการลงตัวCapacitive SensorกับโปรแกรมArduinoให้เรียบร้อย
+
 3.นำโค้ดจากทางเราไปใส่และทำการอัพโหลดเข้าไปในบอร์ดได้เลย
+
 4.ทำการต่อสายไฟดังรูปภาพ
+
 ![](Instruction.jpg)
+
 5.เสร็จสิ้นทำการเล่นPianoได้เลย
 
 1.Download library Capacitive Sensor from http://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
 
 2.Install Capacitive Sensor to the Arduino program
+
 3.Download our code and upload it into the board
+
 4.Connect the wires as in the picture
+
 ![](Instruction.jpg)
+
 5.Finish you can now play the piano
