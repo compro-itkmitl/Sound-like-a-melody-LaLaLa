@@ -33,6 +33,9 @@ void loop()
   long total5 =  cs_2_7.capacitiveSensor(30);
   long total6 =  cs_2_8.capacitiveSensor(30);
   long total7 =  cs_2_9.capacitiveSensor(30);
+  long total8 =  cs_2_10.capacitiveSensor(30);
+  long total9 =  cs_2_12.capacitiveSensor(30);
+  long total10 =  cs_2_13.capacitiveSensor(30);
   
   Serial.print(millis() - start);
   Serial.print("\t");
