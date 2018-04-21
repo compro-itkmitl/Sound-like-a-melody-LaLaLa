@@ -69,17 +69,22 @@ void loop()
   if (total7 > 150) tone(speaker,988);
   if (total8 > 150)
   {
-    long total1 =  cs_2_3.capacitiveSensor(30);
-    long total2 =  cs_2_4.capacitiveSensor(30);
-    long total3 =  cs_2_5.capacitiveSensor(30);
-    long total4 =  cs_2_6.capacitiveSensor(30);
-    long total5 =  cs_2_7.capacitiveSensor(30);
-    long total6 =  cs_2_8.capacitiveSensor(30);
-    long total7 =  cs_2_9.capacitiveSensor(30);
-    long total9 =  cs_2_12.capacitiveSensor(30);
-
     for(int i=0;i<500;i++)
     {
+      recording[i] = 0;
+      tone(speaker,0);
+    }
+    for(int i=0;i<500;i++)
+    {
+      long total1 =  cs_2_3.capacitiveSensor(30);
+      long total2 =  cs_2_4.capacitiveSensor(30);
+      long total3 =  cs_2_5.capacitiveSensor(30);
+      long total4 =  cs_2_6.capacitiveSensor(30);
+      long total5 =  cs_2_7.capacitiveSensor(30);
+      long total6 =  cs_2_8.capacitiveSensor(30);
+      long total7 =  cs_2_9.capacitiveSensor(30);
+      long total9 =  cs_2_12.capacitiveSensor(30);
+
       if (total1 > 150)
       {
         recording[i] = 523;
@@ -137,6 +142,16 @@ void loop()
       delayMicroseconds(5);
     }
     for(int i=0;i<500;i++) tone(speaker,0);
+  }
+  if(total10 > 150)
+  {
+    for(int i=0;i<500;i++)
+    {
+      Serial.println(recording[i]);
+      if(recording[i] == 0) noTone(speaker);
+      else tone(speaker,recording[i]);
+      delay(19);
+    }
   }
 
   if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
