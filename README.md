@@ -5,6 +5,9 @@
 Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a piano from Arduino Uno board. Piano from our code can play 7 sounds that is Do Re Mi Fa Sol La Ti (No high Do) and able to record sound you play for about 10 seconds after the signal. When you're done with recording you can either press the stop record button or wait for time out there will be a signal (like the beginning) to alert you that it finished recording. You can press the play button to play the sound you record. If you already record something and then you press the record button again, the previous record will be delete.
 
 #Material
+
+ภาษาไทย
+
 1.สายไฟตัวผู้ 2 หัว
 
 2.บอร์ดArduino
@@ -17,14 +20,24 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 
 6.Breadboard
 
+English
+
 1. 2 male head wire
+
 2. Arduino Board
+
 3. Speaker
+
 4. Resistor
+
 5. Paper clips
+
 6. Breadboard
 
 #Instruction
+
+ภาษาไทย
+
 1.ทำการโหลดตัวlibrary Capacitive Sensorจากhttp://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
 
 2.ทำการลงตัวCapacitive SensorกับโปรแกรมArduinoให้เรียบร้อย
@@ -36,6 +49,8 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 ![](Instruction.jpg)
 
 5.เสร็จสิ้นทำการเล่นPianoได้เลย
+
+English
 
 1.Download library Capacitive Sensor from http://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
 
