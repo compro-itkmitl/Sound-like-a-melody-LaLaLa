@@ -21,6 +21,7 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 
 #Instruction
 1.ทำการโหลดตัวlibrary Capacitive Sensorจากhttp://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
+
 2.ทำการลงตัวCapacitive SensorกับโปรแกรมArduinoให้เรียบร้อย
 3.นำโค้ดจากทางเราไปใส่และทำการอัพโหลดเข้าไปในบอร์ดได้เลย
 4.ทำการต่อสายไฟดังรูปภาพ
@@ -28,6 +29,7 @@ Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a pian
 5.เสร็จสิ้นทำการเล่นPianoได้เลย
 
 1.Download library Capacitive Sensor from http://playground.arduino.cc//Main/CapacitiveSensor?from=Main.CapSense
+
 2.Install Capacitive Sensor to the Arduino program
 3.Download our code and upload it into the board
 4.Connect the wires as in the picture
