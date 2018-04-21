@@ -136,6 +136,7 @@ void loop()
       Serial.println(total7);
       delayMicroseconds(5);
     }
+    for(int i=0;i<500;i++) tone(speaker,0);
   }
 
   if (total1<=150  &  total2<=150  &  total3<=150 & total4<=150  &  total5<=150  &  total6<=150 &  total7<=150)
