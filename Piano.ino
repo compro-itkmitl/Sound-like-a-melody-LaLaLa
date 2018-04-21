@@ -53,6 +53,12 @@ void loop()
   Serial.print(total6);
   Serial.print("\t");
   Serial.print(total7);
+  Serial.print("\t");
+  Serial.print(total8);
+  Serial.print("\t");
+  Serial.print(total9);
+  Serial.print("\t");
+  Serial.println(total10);
   
   if (total1 > 150) tone(speaker,523);
   if (total2 > 150) tone(speaker,587);
