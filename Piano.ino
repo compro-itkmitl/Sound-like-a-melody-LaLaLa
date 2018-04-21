@@ -120,6 +120,7 @@ void loop()
         noTone(speaker);
         recording[i] = 0;
       }
+      if (total9 > 150) break;
       delayMicroseconds(5);
     }
   }
