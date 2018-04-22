@@ -4,7 +4,7 @@
 
 Hello today Sound-like-a-melody-LaLaLa group will teach you how to create a piano from Arduino Uno board. Piano from our code can play 7 sounds that is Do Re Mi Fa Sol La Ti (No high Do) and able to record sound you play for about 10 seconds after the signal. When you're done with recording you can either press the stop record button or wait for time out there will be a signal (like the beginning) to alert you that it finished recording. You can press the play button to play the sound you record. If you already record something and then you press the record button again, the previous record will be delete.
 
-#Material
+# Material
 
 ภาษาไทย
 
@@ -34,7 +34,7 @@ English
 
 6. Breadboard
 
-#Instruction
+# Instruction
 
 ภาษาไทย
 
@@ -64,7 +64,7 @@ English
 
 5.Finish you can now play the piano
 
-#Team member
+# Team member
 
 นาย จิรายุ เพชรดำ 60070010
 
@@ -72,7 +72,7 @@ English
 
 นาย นภนต์ ตั้งหลักมงคล 60070037
 
-#Instructor
+# Instructor
 
 ผศ. ดร. กิติ์สุชาติ พสุภา
 
