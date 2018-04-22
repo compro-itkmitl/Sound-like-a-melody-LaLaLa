@@ -46,7 +46,7 @@ English
 
 4.ทำการต่อสายไฟดังรูปภาพ
 
-![](Instruction.png)
+![](Instruction.jpg)
 
 5.เสร็จสิ้นทำการเล่นPianoได้เลย
 
@@ -60,6 +60,6 @@ English
 
 4.Connect the wires as in the picture
 
-![](Instruction.png)
+![](Instruction.jpg)
 
 5.Finish you can now play the piano
