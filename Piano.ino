@@ -14,7 +14,6 @@ CapacitiveSensor   cs_2_12 = CapacitiveSensor(2,12);
 CapacitiveSensor   cs_2_13 = CapacitiveSensor(2,13);
 
 int recording[500];
-
 void setup()                    
 {
   cs_2_3.set_CS_AutocaL_Millis(0xFFFFFFFF);
@@ -84,7 +83,6 @@ void loop()
       long total6 =  cs_2_8.capacitiveSensor(30);
       long total7 =  cs_2_9.capacitiveSensor(30);
       long total9 =  cs_2_12.capacitiveSensor(30);
-
       if (total1 > 150)
       {
         recording[i] = 523;
